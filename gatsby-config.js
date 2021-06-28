@@ -61,7 +61,7 @@ module.exports = {
         name: `Gatsby Starter WordPress Blog`,
         short_name: `GatsbyJS & WP`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#ffff50`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
