@@ -2,7 +2,7 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import parse from "html-react-parser"
 
-const Layout = ({ isHomePage, children }) => {
+const Layout = ({ isHomePage, children, menu }) => {
   const {
     wp: {
       generalSettings: { title },
@@ -13,6 +13,7 @@ const Layout = ({ isHomePage, children }) => {
         generalSettings {
           title
           description
+          menu
         }
       }
     }
@@ -32,7 +33,10 @@ const Layout = ({ isHomePage, children }) => {
         )}
       </header>
 
-      <main>{children}</main>
+      <main>
+            {children}
+            {menu}
+      </main>
 
       <footer>
         © {new Date().getFullYear()}, Built with
