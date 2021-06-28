@@ -13,7 +13,6 @@ const Layout = ({ isHomePage, children }) => {
         generalSettings {
           title
           description
-          menu
         }
       }
     }
