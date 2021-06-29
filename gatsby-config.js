@@ -78,4 +78,3 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
-/** Yolo */
