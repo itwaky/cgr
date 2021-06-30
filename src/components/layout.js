@@ -31,11 +31,11 @@ const Layout = ({ isHomePage, children, menu }) => {
             {title}
           </Link>
         )}
+        {menu}
       </header>
 
       <main>
             {children}
-            {menu}
       </main>
 
       <footer>
